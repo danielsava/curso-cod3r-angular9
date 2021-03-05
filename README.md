@@ -32,6 +32,18 @@ Como parte da configuração do 'json-server', foi criado o arquivo `db.json` na
 
      db.json
 
+<br/>
+
+## FrontEnd : Angular
+
+<br/>
+
+<center>"Angular é um framework desenvolvido por um dos times da Google para criação de aplicações Web SPA, baseados em componentes"</center>
+
+
+
+
+
 
 
 
