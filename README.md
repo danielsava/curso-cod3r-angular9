@@ -53,10 +53,14 @@ Inicializando um `novo projeto` Angular:
 
 Nas opções, foram selecionadas `routing` e `css`.
 
+<br/>
+
+## Componentes: Angular Material Design
+
+Para adicionar os componentes do [Angular Material](https://material.angular.io/) através do `Angular CLI`:
 
 
-
-
+     $ ng add @angular/material
 
 
 
