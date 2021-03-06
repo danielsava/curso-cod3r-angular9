@@ -57,10 +57,32 @@ Nas opções, foram selecionadas `routing` e `css`.
 
 ## Componentes: Angular Material Design
 
-Para adicionar os componentes do [Angular Material](https://material.angular.io/) através do `Angular CLI`:
+O [Angular Material](https://material.angular.io/) pode ser instalado e configurado no projeto através do `Angular cli`:
 
 
      $ ng add @angular/material
+
+
+O comando `ng add` mostrado acima irá instalar no projeto o `Component Dev Kit (CDK)`, `Angular Animations` e executar as seguintes configurações:
+
+ - Adiciona as dependências `do Angular Material` no 'package.json'
+ - Adiciona a fonte `Roboto` e o ícone do Material Design no `index.html`
+ - Adiciona algumas configurações no `CSS Global`:
+     * Remove margins do `<body>`
+     * Seta `height: 100%` no `<html>` e no `<body>`
+     * Seta o `Roboto` como fonte padrão da aplicação.
+
+Além das configurações acima, o `ng add` adicionou no `angular.json` os arquivos css do `tema escolhido` na seção 
+`"styles"` do projeto e dos testes : 
+
+     <...>
+     "styles": [
+          "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+          ...
+     ],
+     <...>
+
+
 
 
 
