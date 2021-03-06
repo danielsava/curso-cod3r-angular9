@@ -5,15 +5,6 @@ Link do Curso:
 - [Angular 9 - Backend  Visão Geral do Angular 2020](https://www.youtube.com/watch?v=NCrWXZtlc7Q&list=PLdPPE0hUkt0rPyAkdhHIIquKbwrGUkvw3)
 
 
-<br/>
-
-
-## VsCode
-
-Foi instalado no VsCode os seguintes plugins:
-
- - Material Icon Theme 
-
  <br/>
 
 ## BackEnd 
@@ -39,6 +30,30 @@ Como parte da configuração do 'json-server', foi criado o arquivo `db.json` na
 <br/>
 
 <center>"Angular é um framework desenvolvido por um dos times da Google para criação de aplicações Web SPA, baseados em componentes"</center>
+
+<br/>
+
+### Instalação: Angular CLI
+
+Para instalar o `Angular CLI`:
+
+     $ npm i -g @angular/cli
+
+<br/>
+
+Verificando a instalação:
+
+      $ ng --version
+
+
+Inicializando um `novo projeto` Angular:
+
+     $ ng new <nome_projeto>
+
+
+Nas opções, foram selecionadas `routing` e `css`.
+
+
 
 
 
