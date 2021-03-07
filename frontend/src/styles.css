@@ -1,5 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 
+/*
+    Conforme explicado acima, neste arquivo pode ser definido classes css que serão 
+    utilizados de forma global na aplicação.
+
+    Logo abaixo:
+     1. Classes CSS criadas pelo Angular Material
+     2. Classes CSS criadas para a aplicação
+
+*/
+
+
 /* Angular Material: 
      - 'html' e 'body' com 'height: 100%',  
      - 'body' com 'margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif' */
@@ -11,4 +22,15 @@ html, body {
 body { 
     margin: 0; 
     font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
+
+
+/* Classes CSS criadas para aplicação */
+
+.red {
+    color: rgb(227, 94, 107)
+}
+
+.v-align-middle {
+    vertical-align: middle;
 }
