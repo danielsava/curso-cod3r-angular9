@@ -55,7 +55,7 @@ Nas opções, foram selecionadas `routing` e `css`.
 
 <br/>
 
-## Componentes: Angular Material Design
+## Angular Material Design
 
 O [Angular Material](https://material.angular.io/) pode ser instalado e configurado no projeto através do `Angular cli`:
 
@@ -82,9 +82,22 @@ Além das configurações acima, o `ng add` adicionou no `angular.json` os arqui
      ],
      <...>
 
+<br/>
 
+## Angular CLI
 
+### Componentes
 
+Para gerar componentes a partir do `Angular CLI`:
+
+     # 
+     ng generate component <nome_component>
+
+     # Forma abreviada
+     ng g c <path_nome_componente>
+
+     # Ex1: criando um componente chamado 'header'
+     $ ng g c components/template/header
 
 
 
