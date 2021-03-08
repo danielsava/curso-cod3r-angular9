@@ -8,12 +8,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatCardModule } from '@angular/material/card';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatRadioModule } from '@angular/material/radio';
+
+
 import { HeaderComponent } from './components/template/header/header.component';
 import { FooterComponent } from './components/template/footer/footer.component';
+import { NavComponent } from './components/template/nav/nav.component';
 
 
 
@@ -21,7 +26,8 @@ import { FooterComponent } from './components/template/footer/footer.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
@@ -29,6 +35,8 @@ import { FooterComponent } from './components/template/footer/footer.component';
     BrowserAnimationsModule,
     FormsModule,
     MatToolbarModule,  
+    MatSidenavModule,
+    MatListModule,
     MatCardModule,
     MatSliderModule,
     MatCheckboxModule,

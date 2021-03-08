@@ -5,6 +5,11 @@ Link do Curso:
 - [Angular 9 - Backend  Visão Geral do Angular 2020](https://www.youtube.com/watch?v=NCrWXZtlc7Q&list=PLdPPE0hUkt0rPyAkdhHIIquKbwrGUkvw3)
 
 
+Link dos Ícones do Material Design:
+
+ - [material.io](https://material.io/resources/icons)
+
+
  <br/>
 
 ## BackEnd 
