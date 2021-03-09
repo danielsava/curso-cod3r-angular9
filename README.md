@@ -124,3 +124,13 @@ Para gerar `services`:
 Documentação Oficial do Angular sobre Injeção de Dependência:
 
  - https://angular.io/guide/hierarchical-dependency-injection#moduleinjector
+
+
+### Escopo dos Serviços
+
+Observação sobre onde declarar os serviços.
+
+      Segundo recomendações da documentação oficial, declarar o escopo do serviço
+      dentro do @Injectable em vez de colocar no 'provider' do @NgModule:
+      "result in smaller bundle size" 
+
