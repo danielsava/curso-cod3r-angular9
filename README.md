@@ -93,18 +93,34 @@ Além das configurações acima, o `ng add` adicionou no `angular.json` os arqui
 
 ### Componentes
 
-Para gerar componentes a partir do `Angular CLI`:
+Para gerar `componentes`:
 
      # 
-     ng generate component <nome_component>
+     $ ng generate component <nome_component>
 
      # Forma abreviada
-     ng g c <path_nome_componente>
+     $ ng g c <path_nome_componente>
 
      # Ex1: criando um componente chamado 'header'
      $ ng g c components/template/header
 
+<br/>
+
+### Services
+
+Para gerar `services`:
+
+     # 
+     $ ng genrate service <path_nome_servico>
 
 
+     # Abreviada
+     $ ng g s services/product
 
- 
+<br/>
+
+### Injeção de Dependência no Angular
+
+Documentação Oficial do Angular sobre Injeção de Dependência:
+
+ - https://angular.io/guide/hierarchical-dependency-injection#moduleinjector
