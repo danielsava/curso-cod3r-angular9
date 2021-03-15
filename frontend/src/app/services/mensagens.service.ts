@@ -13,7 +13,7 @@ export class MensagensService {
 
   snackInfo(msg: string): void {
 
-    this.snackBar.open(msg, '',  { duration: 3000, horizontalPosition: 'right', verticalPosition: 'top' })
+    this.snackBar.open(msg, 'fechar',  { duration: 3000, horizontalPosition: 'right', verticalPosition: 'top' })
 
   }
 
