@@ -113,6 +113,7 @@ Abaixo segue alguns componentes criados na aplicação:
      $ ng g c components/product/product-create
 
 
+<br/>
 
 ### Services
 
@@ -124,6 +125,21 @@ Para gerar `services`:
 
      # Abreviada
      $ ng g s services/product
+
+<br/>
+
+Abaixo segue alguns servicços criados na aplicação:
+
+
+     # Rotas
+     $ ng g s services/rotas
+
+     # Product
+     $ ng g s services/product
+
+     # Mensagens
+     $ ng g s services/mensagens
+
 
 <br/>
 

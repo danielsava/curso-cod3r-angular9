@@ -14,4 +14,8 @@ export class RotasService {
     this.router.navigate(['/products/create'])
   }
 
+  products() {
+    this.router.navigate(['/products'])
+  }
+
 }

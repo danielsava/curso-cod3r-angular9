@@ -15,6 +15,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatButtonModule } from '@angular/material/button';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 
 import { HeaderComponent } from './components/template/header/header.component';
@@ -51,7 +52,8 @@ import { ProductCreateComponent } from './components/product/product-create/prod
     MatSliderModule,
     MatCheckboxModule,
     MatRadioModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
