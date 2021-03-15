@@ -106,6 +106,14 @@ Para gerar `componentes`:
 
 <br/>
 
+Abaixo segue alguns componentes criados na aplicação:
+
+
+     # ProductCreate
+     $ ng g c components/product/product-create
+
+
+
 ### Services
 
 Para gerar `services`:

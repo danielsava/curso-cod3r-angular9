@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { RotasService } from 'src/app/services/rotas.service';
 
 @Component({
   selector: 'app-product-crud',
@@ -7,7 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductCrudComponent implements OnInit {
 
-  constructor() { }
+
+  constructor(private rotas: RotasService) { }
+
+
+  navigateToProductCreate() {
+    this.rotas.productsCreate()
+  }
 
   ngOnInit(): void {
   }
