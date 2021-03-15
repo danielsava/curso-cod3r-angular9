@@ -134,3 +134,31 @@ Observação sobre onde declarar os serviços.
       dentro do @Injectable em vez de colocar no 'provider' do @NgModule:
       "result in smaller bundle size" 
 
+
+## Diretivas
+
+Angular possui dois tipos de diretivas:
+
+ - `Diretivas de Atributos`: altera atributos e comportamento dos componentes.
+     - Ex.: routerLink; mat-list-item
+
+ - `Diretivas Estruturais`: adiciona ou remove componentes na DOM.
+     - Ex.: *ngIf; *ngFor
+
+<br/>
+
+Para criar uma `diretiva` pelo Angular CLI:
+
+     # Sintaxe
+     $ ng g d <path_nome_diretiva>
+
+
+     # Ex.
+     $ ng g d directives/red
+
+
+- OBS: 
+     - A `forma de criar` uma diretiva `de atributo` e uma diretiva `estrutural` é a mesma mostrada acima: `ng g d <nome_diretiva>`.
+     - O que vai mudar é o uso `'*'` antes do nome da diretiva dentro do componente que ela será utilizada. Este asterisco serve para informar ao angular que é uma `diretiva estrutural`. Ex.: *myFor
+
+asdfa
