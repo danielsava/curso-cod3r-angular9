@@ -5,6 +5,7 @@ import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { TabelaComponent } from './components/schematics/tabela/tabela.component';
+import { DashComponent } from './components/schematics/dash/dash.component';
 
 const routes: Routes = [
   {
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path: "schematics/tabela",
     component: TabelaComponent
+  },
+  {
+    path: "schematics/dash",
+    component: DashComponent
   }
 ];
 

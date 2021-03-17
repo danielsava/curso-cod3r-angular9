@@ -21,7 +21,10 @@ import { MatInputModule } from '@angular/material/input';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
-
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatIconModule } from '@angular/material/icon';
+import { LayoutModule } from '@angular/cdk/layout';
 
 import { HeaderComponent } from './components/template/header/header.component';
 import { FooterComponent } from './components/template/footer/footer.component';
@@ -33,6 +36,8 @@ import { ForDirective } from './directives/for.directive';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { ProductReadComponent } from './components/product/product-read/product-read.component';
 import { TabelaComponent } from './components/schematics/tabela/tabela.component';
+import { DashComponent } from './components/schematics/dash/dash.component';
+
 
 
 
@@ -48,7 +53,8 @@ import { TabelaComponent } from './components/schematics/tabela/tabela.component
     ForDirective,
     ProductCreateComponent,
     ProductReadComponent,
-    TabelaComponent
+    TabelaComponent,
+    DashComponent
   ],
   imports: [
     BrowserModule,
@@ -69,7 +75,11 @@ import { TabelaComponent } from './components/schematics/tabela/tabela.component
     MatInputModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+    MatGridListModule,
+    MatMenuModule,
+    MatIconModule,
+    LayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
