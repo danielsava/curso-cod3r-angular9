@@ -117,6 +117,11 @@ Abaixo segue alguns componentes criados na aplicação:
      $ ng g c components/product/product-read
 
 
+     # Angular Schematics Exemplos
+     $ ng generate @angular/material:table components/schematics/tabela
+     $ ng generate @angular/material:table components/schematics/dash
+
+
 <br/>
 
 ### Services
@@ -181,7 +186,7 @@ Para criar uma `diretiva` pelo Angular CLI:
      $ ng g d <path_nome_diretiva>
 
 
-     # Ex.
+     # Ex. Diretivas
      $ ng g d directives/red
 
 
@@ -189,5 +194,32 @@ Para criar uma `diretiva` pelo Angular CLI:
      - A `forma de criar` uma diretiva `de atributo` e uma diretiva `estrutural` é a mesma mostrada acima: `ng g d <nome_diretiva>`.
      - O que vai mudar é o uso `'*'` antes do nome da diretiva dentro do componente que ela será utilizada. Este asterisco serve para informar ao angular que é uma `diretiva estrutural`. Ex.: *myFor
 
+<br/>
 
-asdfa
+## Angular Material Schematics
+
+Integração que o Angular Material possui com o Angular CLI Schematics, com o objetivo de facilitar o desenvolvimento de aplicações que utilizam os componentes Angular Material. Já vem `instalado` junto com o `@angular/cdk` e o `@angular/material`.
+
+ - https://material.angular.io/guide/schematics
+
+
+ O Angular Material Schematics `possui vários schematics prontos` que podem ser usados para inserir os componentes do Angular Material na aplicação:
+
+  - address-form
+  - navigation
+  - dashboard
+  - table
+  - tree
+  - drag-drop (@angular/cdk/drag-drop)
+
+
+<br/>
+
+Por exemplo, para utilizar o `table schematics` do Angular Material:
+
+     # Sintaxe
+     $ ng generate @angular/material:table <nome_componente>
+
+     # Ex.:
+     $ ng generate @angular/material:table components/schematics/tabela
+
