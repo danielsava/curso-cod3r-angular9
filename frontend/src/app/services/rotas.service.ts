@@ -1,13 +1,15 @@
-import { Injectable } from '@angular/core';
+import { Injectable, OnDestroy, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root'
 })
-export class RotasService {
+export class RotasService implements OnInit, OnDestroy {
 
 
-  constructor(private router: Router) { }
+  constructor(private router: Router) {
+    console.log('# RotasService criado ... ')
+  }
 
 
   productsCreate() {
@@ -16,6 +18,16 @@ export class RotasService {
 
   products() {
     this.router.navigate(['/products'])
+  }
+
+
+  ngOnInit(): void {
+    console.log('# RotasService inicializado ... ')
+  }
+
+  ngOnDestroy(): void {
+    console.log('# RotasService destruído ... ')
+    //throw new Error('Method not implemented.');
   }
 
 }
