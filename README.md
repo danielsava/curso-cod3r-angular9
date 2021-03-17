@@ -113,6 +113,10 @@ Abaixo segue alguns componentes criados na aplicação:
      $ ng g c components/product/product-create
 
 
+     # ProductRead
+     $ ng g c components/product/product-read
+
+
 <br/>
 
 ### Services
