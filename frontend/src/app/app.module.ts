@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -37,6 +37,8 @@ import { ProductCreateComponent } from './components/product/product-create/prod
 import { ProductReadComponent } from './components/product/product-read/product-read.component';
 import { TabelaComponent } from './components/schematics/tabela/tabela.component';
 import { DashComponent } from './components/schematics/dash/dash.component';
+import { FormComponent } from './components/schematics/form/form.component';
+import { MatSelectModule } from '@angular/material/select';
 
 
 
@@ -54,7 +56,8 @@ import { DashComponent } from './components/schematics/dash/dash.component';
     ProductCreateComponent,
     ProductReadComponent,
     TabelaComponent,
-    DashComponent
+    DashComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
@@ -79,7 +82,9 @@ import { DashComponent } from './components/schematics/dash/dash.component';
     MatGridListModule,
     MatMenuModule,
     MatIconModule,
-    LayoutModule
+    LayoutModule,
+    MatSelectModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

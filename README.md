@@ -119,7 +119,8 @@ Abaixo segue alguns componentes criados na aplicação:
 
      # Angular Schematics Exemplos
      $ ng generate @angular/material:table components/schematics/tabela
-     $ ng generate @angular/material:table components/schematics/dash
+     $ ng generate @angular/material:dashboard components/schematics/dash
+     $ ng generate @angular/material:address-form components/schematics/form
 
 
 <br/>

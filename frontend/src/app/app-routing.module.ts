@@ -6,6 +6,7 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { TabelaComponent } from './components/schematics/tabela/tabela.component';
 import { DashComponent } from './components/schematics/dash/dash.component';
+import { FormComponent } from './components/schematics/form/form.component';
 
 const routes: Routes = [
   {
@@ -27,6 +28,10 @@ const routes: Routes = [
   {
     path: "schematics/dash",
     component: DashComponent
+  },
+  {
+    path: "schematics/form",
+    component: FormComponent
   }
 ];
 
