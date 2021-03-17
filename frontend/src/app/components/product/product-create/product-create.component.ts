@@ -12,9 +12,9 @@ import { RotasService } from 'src/app/services/rotas.service';
 export class ProductCreateComponent implements OnInit, OnDestroy {
 
 
-  private product: Product = {
-    name: 'Produto de Teste',
-    price: 125.98
+  product: Product = {
+    name: null,
+    price: null
   }
 
 
@@ -30,7 +30,7 @@ export class ProductCreateComponent implements OnInit, OnDestroy {
     this.productService
       .create(this.product)
       .subscribe(resultado => {
-        this.productService.showMessage(`Produto Criado: ${resultado.id}, ${resultado.name}`)
+        this.productService.showMessage(`Produto Criado: ${resultado.id}, ${resultado.name}, ${resultado.price}`)
         this.rotas.products()
       })
   }
