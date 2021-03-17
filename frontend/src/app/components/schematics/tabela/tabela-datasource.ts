@@ -106,6 +106,7 @@ export class TabelaDataSource extends DataSource<TabelaItem> {
       }
     });
   }
+  
 }
 
 /** Simple sort comparator for example ID/Name columns (for client-side sorting). */
