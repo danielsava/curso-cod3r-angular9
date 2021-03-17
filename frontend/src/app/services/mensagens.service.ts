@@ -11,7 +11,7 @@ export class MensagensService implements OnInit, OnDestroy {
 
 
   constructor(private snackBar: MatSnackBar) {
-    console.log('# MensagensService criado ... ')
+    console.debug('# MensagensService criado ... ')
   }
 
 
@@ -21,11 +21,11 @@ export class MensagensService implements OnInit, OnDestroy {
 
   
   ngOnInit(): void {
-    console.log('# MensagensService inicializado ... ')
+    console.debug('# MensagensService inicializado ... ')
   }
 
   ngOnDestroy(): void {
-    console.log('# MensagensService destruído ... ')
+    console.debug('# MensagensService destruído ... ')
     //throw new Error('Method not implemented.');
   }
 

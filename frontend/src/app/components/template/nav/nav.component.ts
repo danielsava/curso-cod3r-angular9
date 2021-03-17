@@ -9,17 +9,17 @@ export class NavComponent implements OnInit, OnDestroy {
 
 
   constructor() {
-    console.log('NavComponent criado ...')
+    console.debug('NavComponent criado ...')
   }
 
 
 
   ngOnInit(): void {
-    console.log('NavComponent inicializado ...')
+    console.debug('NavComponent inicializado ...')
   }
 
   ngOnDestroy(): void {
-    console.log('NavComponent destruído ...')
+    console.debug('NavComponent destruído ...')
     //throw new Error('Method not implemented.');
   }
 

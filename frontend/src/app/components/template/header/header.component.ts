@@ -9,17 +9,17 @@ export class HeaderComponent implements OnInit, OnDestroy {
 
 
   constructor() {
-    console.log('HeaderComponent criado ... ')
+    console.debug('HeaderComponent criado ... ')
   }
 
 
 
   ngOnInit(): void {
-    console.log('HeaderComponent inicializado ... ')
+    console.debug('HeaderComponent inicializado ... ')
   }
 
   ngOnDestroy(): void {
-    console.log('HeaderComponent destruído ... ')
+    console.debug('HeaderComponent destruído ... ')
   }
 
 }

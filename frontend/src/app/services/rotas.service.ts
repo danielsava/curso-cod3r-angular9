@@ -8,7 +8,7 @@ export class RotasService implements OnInit, OnDestroy {
 
 
   constructor(private router: Router) {
-    console.log('# RotasService criado ... ')
+    console.debug('# RotasService criado ... ')
   }
 
 
@@ -16,17 +16,17 @@ export class RotasService implements OnInit, OnDestroy {
     this.router.navigate(['/products/create'])
   }
 
-  products() {
+  products() {''
     this.router.navigate(['/products'])
   }
 
 
   ngOnInit(): void {
-    console.log('# RotasService inicializado ... ')
+    console.debug('# RotasService inicializado ... ')
   }
 
   ngOnDestroy(): void {
-    console.log('# RotasService destruído ... ')
+    console.debug('# RotasService destruído ... ')
     //throw new Error('Method not implemented.');
   }
 

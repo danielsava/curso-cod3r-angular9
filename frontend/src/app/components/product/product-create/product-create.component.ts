@@ -14,7 +14,7 @@ export class ProductCreateComponent implements OnInit, OnDestroy {
     private productService: ProductService,
     private rotas: RotasService
   ) {
-    console.log('ProductCreateComponent criado ...')
+    console.debug('ProductCreateComponent criado ...')
   }
 
 
@@ -30,11 +30,11 @@ export class ProductCreateComponent implements OnInit, OnDestroy {
 
   
   ngOnInit(): void {
-    console.log('ProductCreateComponent Inicializado ...')
+    console.debug('ProductCreateComponent Inicializado ...')
   }
 
   ngOnDestroy(): void  {
-    console.log('ProductCreateComponent Destruído ...')
+    console.debug('ProductCreateComponent Destruído ...')
   }
 
 }

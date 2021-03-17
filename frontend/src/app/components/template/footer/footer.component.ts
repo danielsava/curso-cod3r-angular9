@@ -7,16 +7,18 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit, OnDestroy {
 
+
   constructor() {
-    console.log("FooterComponent criado ...")
+    console.debug("FooterComponent criado ...")
   }
 
+  
   ngOnInit(): void {
-    console.log("FooterComponent inicializado ...")
+    console.debug("FooterComponent inicializado ...")
   }
 
   ngOnDestroy(): void {
-    console.log("FooterComponent destruído ...")
+    console.debug("FooterComponent destruído ...")
   }
 
 }

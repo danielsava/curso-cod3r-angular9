@@ -10,7 +10,7 @@ export class ProductService implements OnInit, OnDestroy {
 
 
   constructor(private msg: MensagensService) { 
-    console.log('# ProductService criado ... ')
+    console.debug('# ProductService criado ... ')
   }
 
 
@@ -21,11 +21,11 @@ export class ProductService implements OnInit, OnDestroy {
 
 
   ngOnInit(): void {
-    console.log('# ProductService inicializado ... ')
+    console.debug('# ProductService inicializado ... ')
   }
 
   ngOnDestroy(): void {
-    console.log('# ProductService destruído ... ')
+    console.debug('# ProductService destruído ... ')
     //throw new Error('Method not implemented.');
   }
 
