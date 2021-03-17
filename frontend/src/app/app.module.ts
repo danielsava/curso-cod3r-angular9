@@ -18,6 +18,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 
 import { HeaderComponent } from './components/template/header/header.component';
@@ -29,6 +32,8 @@ import { RedDirective } from './directives/red.directive';
 import { ForDirective } from './directives/for.directive';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { ProductReadComponent } from './components/product/product-read/product-read.component';
+import { TabelaComponent } from './components/schematics/tabela/tabela.component';
+
 
 
 @NgModule({
@@ -42,7 +47,8 @@ import { ProductReadComponent } from './components/product/product-read/product-
     RedDirective,
     ForDirective,
     ProductCreateComponent,
-    ProductReadComponent
+    ProductReadComponent,
+    TabelaComponent
   ],
   imports: [
     BrowserModule,
@@ -60,7 +66,10 @@ import { ProductReadComponent } from './components/product/product-read/product-
     MatButtonModule,
     MatSnackBarModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]
