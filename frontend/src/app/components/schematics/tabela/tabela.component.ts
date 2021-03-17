@@ -10,10 +10,16 @@ import { TabelaDataSource, TabelaItem } from './tabela-datasource';
   styleUrls: ['./tabela.component.css']
 })
 export class TabelaComponent implements AfterViewInit, OnInit {
+
+  @ViewChild(MatPaginator) 
+  paginator: MatPaginator;
   
-  @ViewChild(MatPaginator) paginator: MatPaginator;
-  @ViewChild(MatSort) sort: MatSort;
-  @ViewChild(MatTable) table: MatTable<TabelaItem>;
+  @ViewChild(MatSort) 
+  sort: MatSort;
+  
+  @ViewChild(MatTable) 
+  table: MatTable<TabelaItem>;
+  
   dataSource: TabelaDataSource;
 
   /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
