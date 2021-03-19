@@ -30,7 +30,7 @@ export class ProductReadComponent implements OnInit {
   }
 
   configurarTabela(): void {
-    this.colunasTabela = ['id', 'name', 'price']
+    this.colunasTabela = ['id', 'name', 'price', 'action']
   }
 
 
