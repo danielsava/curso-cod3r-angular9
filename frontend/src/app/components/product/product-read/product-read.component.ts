@@ -12,16 +12,26 @@ export class ProductReadComponent implements OnInit {
 
   products: Product[]
 
+  colunasTabela: string[]
+
 
   constructor(private productService: ProductService) { }
 
-  
+
   ngOnInit(): void {
+
+    this.configurarTabela()
+
     this.productService.read()
       .subscribe(produtos => {
         this.products = produtos
         console.log(this.products)
       })
   }
+
+  configurarTabela(): void {
+    this.colunasTabela = ['id', 'name', 'price']
+  }
+
 
 }

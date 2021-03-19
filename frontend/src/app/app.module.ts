@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, LOCALE_ID } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -39,6 +39,14 @@ import { TabelaComponent } from './components/schematics/tabela/tabela.component
 import { DashComponent } from './components/schematics/dash/dash.component';
 import { FormComponent } from './components/schematics/form/form.component';
 import { MatSelectModule } from '@angular/material/select';
+
+
+/* Locale pt-BR */
+import localePt from '@angular/common/locales/pt';
+import { registerLocaleData } from '@angular/common'
+
+registerLocaleData(localePt);
+/* Fim Locale pt-BR */
 
 
 
@@ -86,7 +94,12 @@ import { MatSelectModule } from '@angular/material/select';
     MatSelectModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [
+    {
+      provide: LOCALE_ID,
+      useValue: 'pt-BR'
+    }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

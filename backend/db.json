@@ -19,6 +19,11 @@
       "id": 4,
       "name": "Geladeira",
       "price": 2500.99
+    },
+    {
+      "id": 5,
+      "name": "Notebook Dell",
+      "price": "6000.00"
     }
   ]
 }

@@ -224,3 +224,36 @@ Por exemplo, para utilizar o `table schematics` do Angular Material:
      # Ex.:
      $ ng generate @angular/material:table components/schematics/tabela
 
+
+<br/>
+
+## Locale: pt-BR
+
+Para configurar o locale `pt-BR` no projeto, foram feitas as seguintes configurações em `app.modules.ts`: 
+
+
+1. Importe o `LOCALE_ID` do `@angular/core`:
+
+          import { NgModule, LOCALE_ID } from '@angular/core';
+
+<br/>
+
+2. Executar o método que irá registrar o Locale: `registerLocaleData()` 
+
+          <...>
+          
+          import localePt from '@angular/common/locales/pt';
+          import { registerLocaleData } from '@angular/common';
+
+          registreLocaleData(localePt);
+
+
+          <...>
+
+
+<br/>
+
+O componente `product-read` faz uso do pipe `currency` do Angular na `coluna preço` da tabela. Com o `Locale pt-BR` configurado corretamente, os preços são formatados de acordo com o nosso padrão de ponto e vírgula e espaço depois do `R$`.
+
+
+
