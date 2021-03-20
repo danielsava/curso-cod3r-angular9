@@ -1,5 +1,4 @@
 import { HttpClient } from '@angular/common/http';
-import { ThrowStmt } from '@angular/compiler';
 import { Injectable, OnDestroy, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Product } from '../models/product.model';
@@ -41,6 +40,11 @@ export class ProductService implements OnInit, OnDestroy {
   update(produto: Product): Observable<Product> {
     const url = `${this.baseUrl}/${produto.id}`
     return this.http.put<Product>(url, produto)
+  }
+
+  delete(produto: Product): Observable<any> {
+    const url = `${this.baseUrl}/${produto.id}`
+    return this.http.delete<any>(url)
   }
 
 

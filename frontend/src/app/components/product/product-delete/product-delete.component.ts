@@ -6,14 +6,14 @@ import { ProductService } from 'src/app/services/product.service';
 import { RotasService } from 'src/app/services/rotas.service';
 
 @Component({
-  selector: 'app-product-update',
-  templateUrl: './product-update.component.html',
-  styleUrls: ['./product-update.component.css']
+  selector: 'app-product-delete',
+  templateUrl: './product-delete.component.html',
+  styleUrls: ['./product-delete.component.css']
 })
-export class ProductUpdateComponent implements OnInit {
+export class ProductDeleteComponent implements OnInit {
 
 
-  product: Product = {name: null, price: null}
+  produto: Product = {name: null, price: null}
 
 
   constructor(
@@ -24,27 +24,27 @@ export class ProductUpdateComponent implements OnInit {
   ) { }
 
 
-  updateProduct(): void {
+  deleteProduct(): void {
     this.productService
-      .update(this.product)
-      .subscribe(resultado => {
-        this.productService.showMessage(`Produto Alterado: ${resultado.id}, ${resultado.name}, ${resultado.price}`)
+      .delete(this.produto)
+      .subscribe(() => {
+        this.msg.snackInfo(`Produto Excluído: ${this.produto.id}, ${this.produto.name}, ${this.produto.price}`)
         this.rotas.products()
       })
   }
 
   cancel(): void {
-    this.msg.snackInfo('Alteração Cancelada')
+    this.msg.snackInfo('Exclusão Cancelada')
     this.rotas.products()
   }
 
-  ngOnInit(): void {
 
+  ngOnInit(): void {
     const id = this.route.snapshot.paramMap.get('id')
 
     this.productService
       .readById(id)
-      .subscribe(p => this.product = p)
+      .subscribe(p => this.produto = p)
 
   }
 

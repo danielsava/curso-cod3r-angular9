@@ -9,26 +9,6 @@
       "id": 2,
       "name": "Notebook Mac Pro",
       "price": 12000
-    },
-    {
-      "id": 3,
-      "name": "Sansumg S20+ Plus Ultra",
-      "price": "7500.20"
-    },
-    {
-      "id": 4,
-      "name": "Geladeira Consul",
-      "price": "3000"
-    },
-    {
-      "id": 5,
-      "name": "Notebook Dell",
-      "price": "6000.00"
-    },
-    {
-      "name": "Teclado",
-      "price": "160",
-      "id": 6
     }
   ]
 }

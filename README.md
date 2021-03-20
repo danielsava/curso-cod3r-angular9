@@ -118,7 +118,11 @@ Abaixo segue alguns componentes criados na aplicação:
 
 
      # ProductUpdate
-     $ ng g c components/product/product-update 
+     $ ng g c components/product/product-update
+
+
+     # ProductDelete
+     $ ng g c components/product/product-delete 
 
 
      # Angular Schematics Exemplos

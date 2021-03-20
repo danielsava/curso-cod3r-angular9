@@ -27,6 +27,10 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatSelectModule } from '@angular/material/select';
 import { LayoutModule } from '@angular/cdk/layout';
 
+import { TabelaComponent } from './components/schematics/tabela/tabela.component';
+import { DashComponent } from './components/schematics/dash/dash.component';
+import { FormComponent } from './components/schematics/form/form.component';
+
 import { HeaderComponent } from './components/template/header/header.component';
 import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component';
@@ -37,16 +41,13 @@ import { ForDirective } from './directives/for.directive';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { ProductReadComponent } from './components/product/product-read/product-read.component';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component'
-import { TabelaComponent } from './components/schematics/tabela/tabela.component';
-import { DashComponent } from './components/schematics/dash/dash.component';
-import { FormComponent } from './components/schematics/form/form.component';
+import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 
 
 
 /* Locale pt-BR */
 import localePt from '@angular/common/locales/pt';
 import { registerLocaleData } from '@angular/common';
-
 
 registerLocaleData(localePt);
 /* Fim Locale pt-BR */
@@ -69,7 +70,8 @@ registerLocaleData(localePt);
     TabelaComponent,
     DashComponent,
     FormComponent,
-    ProductUpdateComponent
+    ProductUpdateComponent,
+    ProductDeleteComponent
   ],
   imports: [
     BrowserModule,
