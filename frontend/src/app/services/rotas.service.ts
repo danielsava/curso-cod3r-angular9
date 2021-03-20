@@ -12,11 +12,11 @@ export class RotasService implements OnInit, OnDestroy {
   }
 
 
-  productsCreate() {
+  productsCreate(): void {
     this.router.navigate(['/products/create'])
   }
 
-  products() {''
+  products(): void {
     this.router.navigate(['/products'])
   }
 

@@ -7,6 +7,7 @@ import { ProductCreateComponent } from './components/product/product-create/prod
 import { TabelaComponent } from './components/schematics/tabela/tabela.component';
 import { DashComponent } from './components/schematics/dash/dash.component';
 import { FormComponent } from './components/schematics/form/form.component';
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 
 const routes: Routes = [
   {
@@ -20,6 +21,10 @@ const routes: Routes = [
   {
     path: "products/create",
     component: ProductCreateComponent
+  },
+  {
+    path: "products/update/:id",
+    component: ProductUpdateComponent
   },
   {
     path: "schematics/tabela",

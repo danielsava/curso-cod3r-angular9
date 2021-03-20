@@ -117,6 +117,10 @@ Abaixo segue alguns componentes criados na aplicação:
      $ ng g c components/product/product-read
 
 
+     # ProductUpdate
+     $ ng g c components/product/product-update 
+
+
      # Angular Schematics Exemplos
      $ ng generate @angular/material:table components/schematics/tabela
      $ ng generate @angular/material:dashboard components/schematics/dash

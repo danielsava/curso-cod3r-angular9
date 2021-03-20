@@ -1,0 +1,15 @@
+.titulo {
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+form {
+    display       : flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+}
+
+button {
+    margin: 25px 15px 0px 0px;
+}

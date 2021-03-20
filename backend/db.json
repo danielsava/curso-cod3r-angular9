@@ -12,18 +12,23 @@
     },
     {
       "id": 3,
-      "name": "Sansumg S20+",
-      "price": 5000.12
+      "name": "Sansumg S20+ Plus Ultra",
+      "price": "7500.20"
     },
     {
       "id": 4,
-      "name": "Geladeira",
-      "price": 2500.99
+      "name": "Geladeira Consul",
+      "price": "3000"
     },
     {
       "id": 5,
       "name": "Notebook Dell",
       "price": "6000.00"
+    },
+    {
+      "name": "Teclado",
+      "price": "160",
+      "id": 6
     }
   ]
 }

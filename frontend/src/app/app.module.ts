@@ -24,6 +24,7 @@ import { MatSortModule } from '@angular/material/sort';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule } from '@angular/material/icon';
+import { MatSelectModule } from '@angular/material/select';
 import { LayoutModule } from '@angular/cdk/layout';
 
 import { HeaderComponent } from './components/template/header/header.component';
@@ -35,15 +36,17 @@ import { RedDirective } from './directives/red.directive';
 import { ForDirective } from './directives/for.directive';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { ProductReadComponent } from './components/product/product-read/product-read.component';
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component'
 import { TabelaComponent } from './components/schematics/tabela/tabela.component';
 import { DashComponent } from './components/schematics/dash/dash.component';
 import { FormComponent } from './components/schematics/form/form.component';
-import { MatSelectModule } from '@angular/material/select';
+
 
 
 /* Locale pt-BR */
 import localePt from '@angular/common/locales/pt';
-import { registerLocaleData } from '@angular/common'
+import { registerLocaleData } from '@angular/common';
+
 
 registerLocaleData(localePt);
 /* Fim Locale pt-BR */
@@ -65,7 +68,8 @@ registerLocaleData(localePt);
     ProductReadComponent,
     TabelaComponent,
     DashComponent,
-    FormComponent
+    FormComponent,
+    ProductUpdateComponent
   ],
   imports: [
     BrowserModule,
