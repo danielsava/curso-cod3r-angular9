@@ -13,7 +13,7 @@ import { RotasService } from 'src/app/services/rotas.service';
 export class ProductUpdateComponent implements OnInit {
 
 
-  product: Product = {name: null, price: null}
+  product: Product = { name: null, price: null }
 
 
   constructor(
