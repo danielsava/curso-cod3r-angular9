@@ -11,6 +11,42 @@ Link dos Ícones do Material Design:
 
 
  <br/>
+ 
+## Atualização de versões do Angular
+
+Para atualizar um projeto angular para uma versão mais recente, execute o comando abaixo e siga as instruções:
+
+
+     $ ng update 
+
+
+Após executado o comando acima, segue um exemplo de atualização:
+
+     // 
+     $ ng update @angular/cli @angular/core @angular/cdk @angular/material rxjs
+
+
+     // '--force': Caso tenha alguma dependência que seja incompatível e quebre a atualização, 
+     $ ng update @angular/cli @angular/core @angular/cdk @angular/material rxjs --force
+
+
+
+Finalizada a atualização do angular, fazer:
+
+ - Atualizar os pacotes restante, conferindo e editando o `package.json` (basta deletar a versão da lib e exeuctar `ctrl + spaco`)
+ - Deletar o `node_modules` e o `package-lock.json` e executar o `npm install` (ou `npm i`)
+
+
+
+Referências
+
+ - [Site Oficial do Angular](https://update.angular.io)
+ - [Video: Atualizando projetos para Angular v10 e novidades](https://www.youtube.com/watch?v=QgdBM2VUW10)
+
+ 
+ 
+ <br/>
+
 
 ## BackEnd 
 
@@ -27,6 +63,16 @@ Depois do npm inicializado, o `json-server` foi instalado:
 Como parte da configuração do 'json-server', foi criado o arquivo `db.json` na raiz do diretório `backend`.
 
      db.json
+
+
+<br/>
+
+### API Mock
+
+Abaixo segue uma lista de API mock prontas:
+
+ - JsonPlaceHolder : https://jsonplaceholder.typicode.com/
+
 
 <br/>
 
