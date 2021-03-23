@@ -86,7 +86,7 @@ Abaixo segue uma lista de API mock prontas:
 
 ### Angular CLI: Instalação (ou atualização)
 
-Instalar sempre a versão mais recente do `NodeJS`. Com o NodeJS(e npm) instalado, instalar o `Angular CLI`:
+Instalar sempre a versão mais recente do [NodeJS LTS](https://nodejs.org/en/). Com o NodeJS(e npm) instalado, instalar o `Angular CLI`:
 
      $ npm i -g @angular/cli
 
