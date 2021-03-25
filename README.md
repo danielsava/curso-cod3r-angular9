@@ -70,6 +70,7 @@ Como parte da configuração do 'json-server', foi criado o arquivo `db.json` na
 Abaixo segue uma lista de API mock prontas:
 
  - JsonPlaceHolder : https://jsonplaceholder.typicode.com/
+ - Mockend : https://mockend.com/
 
 
 <br/>
