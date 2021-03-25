@@ -44,9 +44,7 @@ Referências
  - [Video: Atualizando projetos para Angular v10 e novidades](https://www.youtube.com/watch?v=QgdBM2VUW10)
 
  
- 
  <br/>
-
 
 ## BackEnd 
 
@@ -105,6 +103,8 @@ Inicializando um `novo projeto` Angular:
 Nas opções, foram selecionadas `routing` e `css`.
 
 <br/>
+
+
 
 ## Angular Material Design
 
@@ -278,6 +278,8 @@ Por exemplo, para utilizar o `table schematics` do Angular Material:
      # Ex.:
      $ ng generate @angular/material:table components/schematics/tabela
 
+
+<br/>
 
 <br/>
 

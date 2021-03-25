@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 /*
-    Conforme explicado acima, neste arquivo pode ser definido classes css que serão 
+    Conforme explicado acima, neste arquivo pode ser definido classes css que serão
     utilizados de forma global na aplicação.
 
     Logo abaixo:
@@ -11,17 +11,17 @@
 */
 
 
-/* Angular Material: 
-     - 'html' e 'body' com 'height: 100%',  
+/* Angular Material:
+     - 'html' e 'body' com 'height: 100%',
      - 'body' com 'margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif' */
 
-html, body { 
-    height: 100%; 
+html, body {
+    height: 100%;
 }
 
-body { 
-    margin: 0; 
-    font-family: Roboto, "Helvetica Neue", sans-serif; 
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
 

@@ -76,10 +76,10 @@ registerLocaleData(localePt);
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
     FormsModule,
+    BrowserAnimationsModule,
     HttpClientModule,
-    MatToolbarModule,  
+    MatToolbarModule,
     MatSidenavModule,
     MatListModule,
     MatCardModule,
